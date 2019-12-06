@@ -29,7 +29,7 @@ For comparability with our baseline studies, and to allow 5x2 fold statistical t
 
 ATTRIBUTE INFORMATION:
 
-Features consist of hourly average ambient variables
+Features consist of hourly average ambient variables:
 - Temperature (T) in the range 1.81°C and 37.11°C,
 - Ambient Pressure (AP) in the range 992.89-1033.30 milibar,
 - Relative Humidity (RH) in the range 25.56% to 100.16%
