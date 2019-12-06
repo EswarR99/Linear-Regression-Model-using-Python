@@ -4,6 +4,7 @@ Prediction of full load electrical power output of a base load operated combined
 
 
 ALGORITHM DESCRIPTION:
+
 Imported Linear Regression Module from scikit-learn library.
 The target value is expected to be a linear combination of the features. In mathematical notation, if hat{y}
  is the predicted value.
@@ -37,11 +38,7 @@ Features consist of hourly average ambient variables
 The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization.
 
 
-Citation:
-
-Pınar Tüfekci, Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods, International Journal of Electrical Power & Energy Systems, Volume 60, September 2014, Pages 126-140, ISSN 0142-0615, [Web Link].
-([Web Link])
-
-Heysem Kaya, Pınar Tüfekci , Sadık Fikret Gürgen: Local and Global Learning Methods for Predicting Power of a Combined Gas & Steam Turbine, Proceedings of the International Conference on Emerging Trends in Computer and Electronics Engineering ICETCEE 2012, pp. 13-18 (Mar. 2012, Dubai)
+DATASET WEBSITE:
+http://archive.ics.uci.edu/ml/datasets/Combined%20Cycle%20Power%20Plant
 
 
