@@ -16,7 +16,7 @@ min_{w} || X w - y||_2^2
 LinearRegression will take in its fit method arrays X, y and will store the coefficients w of the linear model in its coef_ member.
 The coefficient estimates for Ordinary Least Squares rely on the independence of the features. When features are correlated and the columns of the design matrix X have an approximate linear dependence, the design matrix becomes close to singular and as a result, the least-squares estimate becomes highly sensitive to random errors in the observed target, producing a large variance. This situation of multicollinearity can arise, for example, when data are collected without an experimental design.
 
-Complexity:The least squares solution is computed using the singular value decomposition of X. If X is a matrix of shape (n_samples, n_features) this method has a cost of O(n_samples(n_features)^2)
+Complexity: The least squares solution is computed using the singular value decomposition of X. If X is a matrix of shape (n_samples, n_features) this method has a cost of O(n_samples(n_features)^2)
 assuming that  n_samples is greater than or equal to n_features.
 
 
